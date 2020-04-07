@@ -1,0 +1,47 @@
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 25px auto;
+}
+  
+.input-row {
+    margin: 25px 0px;
+}
+  
+label {
+    display: block;
+    padding-bottom: 5px;
+}
+  
+input.input-field {
+    border: 1px solid black;
+    width: 100%;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 15px;
+    background: none;
+    border: 2px solid #8a3cca;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.has-error {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #f44336;
+}
+
+.form-message {
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+.form-message.valid {
+    color: #4caf50;
+}
+
+.form-message.invalid {
+    color: #f44336;
+}
